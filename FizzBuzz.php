@@ -9,7 +9,6 @@ for ($i = 1; $i < 102; $i++) {
     } elseif ($i > 100) {
         echo 'After this point you should stop drinking!<br>';
     } else {
-        echo $i;
-        echo "<br>";
+        echo "$i <br>";
     }
 }
